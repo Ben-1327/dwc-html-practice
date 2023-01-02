@@ -230,3 +230,38 @@ footer {
 .footer-text {
   color: #fff;
 }
+
+@media screen and (max-width:768px) {
+  header{
+    width: 100%;
+  }
+
+  main{
+    display: block;
+    width: 100%;
+  }
+
+  .blog{
+    width: 100%;
+  }
+
+  .blog-item{
+    width: 100%;
+  }
+
+  .blog-image{
+    width: 55%;
+  }
+
+  .blog-text{
+    width: 45%;
+  }
+
+  .sidebar{
+    width: 100%;
+  }
+
+  .instagram{
+    width: 100%;
+  }
+}
